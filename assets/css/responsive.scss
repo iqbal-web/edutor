@@ -1,0 +1,209 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .menu-area .main-menu ul li {
+        margin: 0 8px;
+    }
+    .about-us-area .shape-7 {
+        left: 0%;
+        top: -10%;
+    }
+    .about-us-area .shape-8 {
+        left: 2%;
+        top: -4%;
+    }
+    .about-us-area .shape-9 {
+        left: 2%;
+        top: 25%;
+    }
+    .instructor-area .instructor-image .is-one {
+        right: 75px;
+        top: -20px;
+    }
+
+    .main-course .all-cources .course-content {
+        left: 80px;
+    }
+    .latest-blog-content {
+        transform: translateY(80%);
+    }
+    .contact-info-area .contact-sidebar {
+        padding: 52px 40px;
+    }
+    .sidebar-widget .sidebar-widget-item form.post-search button {
+        top: 10px;
+    }
+    .instructor-content {
+        text-align: center;
+    }
+    .instructor-area .instructor-image {
+        min-height: 300px;
+        margin-top: 100px;
+    }
+    .testimonial-area h2 {
+        margin-left: 45px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-us-area .shape-7 {
+        left: 2%;
+        top: -5%;
+    }
+    .about-us-area .shape-8 {
+        left: 5%;
+        top: -2%;
+    }
+    .about-us-area .shape-9 {
+        left: 2%;
+        top: 25%;
+    }
+    .cta-area .cta-info .cta-wrapper {
+        padding: 0 40px;
+    }
+    .video-area .video-thum {
+        display: block;
+    }
+    .main-course .course-filter .course-meta {
+        width: 300px;
+    }
+    .main-course .course-filter .course-search .search {
+        width: 300px;
+    }
+    .latest-blog-content {
+        top: 20px;
+    }
+    .latest-blog-content h3 {
+        line-height: 25px;
+    }
+    .mean-container .mean-nav ul li a i{
+        display: none;
+    }
+    .course-details-area .course-sibebar {
+        margin-top: 0px;
+    }
+    .logo-area {
+        margin-top: 30px;
+    }
+    .instructor-area .instructor-image {
+        min-height: 300px;
+        margin-top: 100px;
+    }
+    .testimonial-area .testimonial-active .testimonial-wrapper .testimonial-content {
+        margin-right: -200px;;
+    }
+    .testimonial-area h2 {
+        font-size: 20px;
+        line-height: 30px; 
+        margin-left: 0px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .cta-area .cta-info .cta-wrapper {
+        padding: 0 40px;
+    }
+    .video-area .video-thum {
+        display: block;
+    }
+    .slider-area .slider-info p {
+        padding-right: 0px;
+    }
+    .about-us-area .shape-7 {
+        left: 3%;
+        top: -6%;
+    }
+    .about-us-area .shape-8 {
+        left: 8%;
+        top: -3%;
+    }
+    .about-us-area .shape-9 {
+        left: 6%;
+        top: 7%;
+    }
+    .cta-area .cta-info .cta-wrapper blockquote {
+        display: block;
+    }
+    .video-area-two h4 {
+        width: auto;
+    }
+    .video-area-two p{
+        width: auto;
+    }
+    .latest-blog-content {
+        transform: translateY(80%);
+    }
+    .mean-container .mean-nav ul li a i{
+        display: none;
+    }
+    .course-details-area .course-sibebar {
+        margin-top: 0px;
+    }
+    .course-heading .course-d-btn {
+        text-align: left;
+    }
+    .logo-area {
+        margin-top: 30px;
+    }
+    .instructor-area .instructor-image .is-one {
+        right: 40px;
+        top: -20px;
+        animation: none;
+    }
+    .instructor-area .instructor-image .is-two {
+        left: -25px;
+        top: 20px;
+        animation: none;
+    }
+    .instructor-area .instructor-image .is-three {
+        right: 215px;
+        top: 200px;
+        animation: none;
+    }
+    .instructor-area .instructor-image .is-four {
+        right: 100px;
+        top: 160px;
+        animation: none;
+    }
+    .instructor-area .instructor-image .is-five {
+        left: 115px;
+        top: -60px;
+        animation: none;
+    }
+    .instructor-area .instructor-image .is-six {
+        left: 250px;
+        top: 280px;
+        animation: none;
+    }
+    .instructor-area .instructor-image {
+        min-height: 300px;
+        margin-top: 100px;
+    } 
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .about-us-area .shape-9 {
+        left: 9%;
+        top: 19%;
+    }
+    .main-course .all-cources .course-content {
+        left: 160px;
+    }
+
+}
